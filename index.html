@@ -5,10 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower-Market (Assignment-2)</title>
     <!-- Tailwind CDN -->
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+       <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/3760e97aed.js" crossorigin="anonymous"></script>
+    <style>
+        .noto {
+        font-family: "Noto Serif", serif;
+        }
+        .inter {
+        font-family: "Inter", sans-serif;
+        }
+    </style>
 
 </head>
 <body>
-    
+    <!-- Header -->
+     <header class="max-w-screen-2xl mx-auto">
+        <nav class="flex justify-between items-center  py-8 mb-28">
+            <img src="assets/logo.png" alt="">
+            <ul class="flex gap-5">
+                <li class="font-medium hover:text-orange-500"><a href="#">Home</a></li>
+                <li class="text-gray-500 hover:text-orange-500"><a href="#">Shop</a></li>
+                <li class="text-gray-500 hover:text-orange-500"><a href="#">About us</a></li>
+                <li class="hover:text-orange-500"><a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
+            </ul>
+        </nav>
+        <!-- Banner -->
+        <div class="flex items-center justify-between">
+            <!-- Banner Text -->
+             <div>
+                <h1 class="noto text-6xl font-bold leading-normal">ALWAYS <span class="text-orange-500">FRESH <br>FLOWERS</span></h1>
+                <p class="max-w-lg inter text-xl text-gray-500 mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+             </div>
+             <!-- Banner Img -->
+              <div>
+                <img src="assets/hero-flower.png" alt="">
+              </div>
+        </div>
+        
+     </header>
 </body>
 </html>
