@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower-Market (Assignment-2)</title>
+    <link rel="stylesheet" href="style.css">
     <!-- Tailwind CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
       <!-- Google Fonts -->
@@ -129,7 +130,7 @@
          </section>
 
          <!-- Flower & Plants Lover -->
-          <section class="mb-32">
+          <section class="mb-14 lg:mb-32">
             <div class="flex flex-col lg:flex-row items-center justify-evenly">
                  <!-- Image -->
                   <div class="relative">
@@ -153,6 +154,44 @@
                    </div>
             </div>
           </section>
+
+          <!-- Latest Deals -->
+        <section>
+            <h1 class="noto text-2xl lg:text-5xl font-bold text-center"><span class="text-orange-500">Latest</span> Deals</h1>
+            <p class="max-w-3xl inter px-4 mb-10 text-sm text-gray-500 lg:text-xl mt-5 text-center mx-auto lg:mb-28">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <!-- Card -->
+            <div class="flex flex-col px-4 lg:flex-row lg:justify-center lg:items-start gap-6">
+                <div class="flex flex-col gap-6 w-full lg:w-[367px] order-1 lg:order-none">
+
+                    <!-- Left-Card-1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden relative">
+                        <img src="assets/deal-bloom.png" alt="Bloom Plant" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 flex flex-col items-center justify-center text-white p-4">
+                            <p class="noto text-xl font-bold">60% Off | Bloom Plant</p>
+                            <a href="#" class="inter mt-2 text-base font-semibold border-b-2 border-white  hover:text-gray-200">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <!-- Left-Card-2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden relative">
+                        <img src="assets/deal-ana.png" alt="Ana Plant" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 flex flex-col items-center justify-center text-white p-4">
+                            <p class="noto text-xl font-bold">30% Off | Ana Plant</p>
+                            <a href="#" class="inter mt-2 text-base font-semibold border-b-2 border-white  hover:text-gray-200">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right-Card-1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden relative w-full max-w-[753px] h-[423px] order-2 lg:order-none">
+                    <img src="assets/deal-zabo.png" alt="Zabo Plant" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-white p-4">
+                        <p class="noto text-xl md:text-4xl font-bold">25% Off | Zabo Plant</p>
+                        <a href="#" class="inter mt-4 text-base font-semibold border-b-2 border-white  hover:text-gray-200">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
       </main>
 </body>
 </html>
